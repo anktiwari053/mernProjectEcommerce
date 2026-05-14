@@ -1,47 +1,77 @@
-# MERN E-COMMERCE TUTORIAL
+🚀 Project Setup & Contribution Guide
 
-Hi! My name is **Abhishek Singh**, I have created this tutorial to teach MERN Stack for free on YouTube.
+Welcome to the project! This guide will help you set up the project locally and start contributing smoothly.
 
-# Prerequisite
+📌 Prerequisites
 
-1.  Must have basic knowledge of **Node**, **React**, **Express**, **MongoDB** . _I have made tutorial on each technology on YouTube , make sure to check it out_. **Links are Below respectively**
-2.  Node - https://youtu.be/BSO9C8Z-YV8
-3.  React - https://youtu.be/99kgUCIMboY
-4.  Express - https://youtu.be/teipbke8c4A\
-5.  MongoDB - https://youtu.be/AYDP1S5BbTo
-6.  RestApi - https://youtu.be/AhCSfuG9Jxw _(optional)_
+Make sure you have the following installed on your system:
 
-# Install Dependencies
+Node.js (LTS recommended)
+MongoDB
+Git
+📚 Recommended Knowledge
 
-**For Backend** - `npm i`
+Before contributing, it is helpful to understand:
 
-**For Frontend** - `cd frontend` ` npm i`
+Node.js
+React
+Express.js
+MongoDB
+📦 Project Installation
+1. Clone the Repository
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+🖥️ Backend Setup
+Navigate to backend
+cd backend
+Install dependencies
+npm install
+Environment variables
 
-## Env Variables
+Create a .env file in the backend directory:
 
-Make Sure to Create a config.env file in backend/config directory and add appropriate variables in order to use the app.
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
 
-**Essential Variables**
-PORT=
-DB_URI =
-STRIPE_API_KEY=
-STRIPE_SECRET_KEY=
-JWT_SECRET=
-JWT_EXPIRE=
-COOKIE_EXPIRE=
-SMPT_SERVICE =
-SMPT_MAIL=
-SMPT_PASSWORD=
-SMPT_HOST=
-SMPT_PORT=
-CLOUDINARY_NAME
-CLOUDINARY_API_KEY
-CLOUDINARY_API_SECRET
-_fill each filed with your info respectively_
+You may also copy from .env.example if available.
 
-## Author
+Run backend server
+npm run dev
+🎨 Frontend Setup
+Navigate to frontend
+cd ../frontend
+Install dependencies
+npm install
+Start development server
+npm start
+🌐 Application Access
 
-**Instagram** Click [Here](https://www.instagram.com/meabhisingh) **@meAbhiSingh**
-**YouTube** Click [Here](https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw/) **6 Pack Programmer**
-**LinkedIn** Click [Here](https://in.linkedin.com/in/meabhisingh) **@meAbhiSingh**
-**Twitter** Click [Here](https://twitter.com/meAbhi_Singh) **@meAbhi_Singh**
+Once both servers are running:
+
+Frontend: http://localhost:3000
+Backend: http://localhost:5000
+🧪 Environment Example
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+🤝 Contributing Guidelines
+
+We welcome contributions from everyone!
+
+Steps to contribute:
+Fork the repository
+
+Create a new branch
+
+git checkout -b feature/your-feature-name
+Make your changes
+
+Commit your changes
+
+git commit -m "feat: add your message here"
+
+Push to GitHub
+
+git push origin feature/your-feature-name
+Open a Pull Request
